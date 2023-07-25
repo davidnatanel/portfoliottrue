@@ -1,0 +1,26 @@
+{
+    "es": {
+        "lenguajeEs": "Español",
+        "lenguajeEn": "Ingles",
+        "aboutMeh1": "Hola, soy ",
+        "aboutMep": "Soy una persona intelectualmente curiosa y apasionada por la tecnología y el desarrollo en general. Siempre busco aprender y superarme en cada oportunidad. Disfruto enfrentando nuevos desafíos, ya sea trabajando de forma individual o en equipo. Como autodidacta, he desarrollado la habilidad de adaptarme rápidamente a nuevas situaciones y resolver cualquier tipo de problema que se presente.",
+        "aboutMea": "Mi CV",
+        "boxLefth1": "Contácta",
+        "boxLeftp": "Gracias por llegar hasta aquí, si crees que puedo aportar valor a tu equipo, no dudes en escribirme.",
+        "boxRigthEmail": "Direcion de Email",
+        "boxRigthComment": "Comentar",
+        "boxRigthSubmit": "Enviar"
+    },
+    "en": {
+        "lenguajeEs": "Spain",
+        "lenguajeEn": "English",
+        "aboutMeh1": "I'am ",
+        "aboutMep": "I am intellectually curious and passionate about technology and development in general. I am always eager to learn and strive for continuous improvement. I enjoy tackling new challenges, whether working individually or as part of a team. As a self-learner, I have honed my ability to quickly adapt to new situations and effectively solve any problems that arise.",
+        "aboutMea": "My CV",
+        "boxLefth1": "Contact ",
+        "boxLeftp": "Thank you for coming this far, if you think I can add value to your team, do not hesitate to write me.",
+        "boxRigthEmail": "Email Address",
+        "boxRigthComment": "Comment...",
+        "boxRigthSubmit": "Submit"
+    }
+}

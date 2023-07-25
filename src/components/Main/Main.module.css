@@ -1,0 +1,53 @@
+.container {
+    height: 93vh;
+
+    display: flex;
+    width: 90%;
+
+
+}
+
+.about {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    row-gap: 5%;
+
+}
+
+.about h2 {}
+
+.about p {}
+
+.about button {
+
+    height: 40px;
+    padding: 5px;
+    background: linear-gradient(135deg, #24ff72, #2196F3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+.photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo img {
+
+    width: 50%;
+
+}

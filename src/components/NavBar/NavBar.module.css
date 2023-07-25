@@ -1,0 +1,53 @@
+.containerNav {
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+
+    width: 10%;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.option {
+
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    color: white;
+    font-size: small;
+}
+
+.button {
+    width: 10%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    width: max-content;
+    height: 70%;
+
+    background: linear-gradient(135deg, #24ff72, #2196F3);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.80em;
+}

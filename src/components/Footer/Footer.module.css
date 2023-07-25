@@ -1,0 +1,48 @@
+.container {
+
+    height: 50px;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+
+
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.red {
+    width: 20%;
+    height: 100%;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.red svg {
+    font-size: 1.5em;
+}

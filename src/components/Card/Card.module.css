@@ -1,0 +1,49 @@
+.container {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.readMe {
+    position: absolute;
+    top: 250px;
+    height: 90%;
+    width: 100%;
+
+    transition: all 1s ease-in;
+    ;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container:hover .readMe {
+
+    background-color: rgba(51, 51, 61, 0.785);
+    top: 50px;
+
+
+}
+
+.container h2 {
+
+    width: 100%;
+
+
+}
+
+.container img {
+    height: 100%;
+    position: relative;
+
+    width: 100%;
+}

@@ -1,0 +1,120 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+}
+
+
+
+.left {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.boxinfo {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    row-gap: 10px;
+
+}
+
+
+
+.left div:nth-child(1) {}
+
+.left div:nth-child(2) {
+
+    display: flex;
+}
+
+.left div:nth-child(3) {
+
+    display: flex;
+}
+
+.rigth {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxSendEmail {
+    border-radius: 10px;
+
+    background-color: rgba(22, 125, 90, 0.22);
+
+    width: 60%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    row-gap: 10px;
+    padding: 5px;
+
+}
+
+.boxSendEmail input {
+
+    width: 100%;
+    height: 8%;
+    background-color: rgb(72, 64, 64);
+    border: none;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+
+
+.boxSendEmail input:nth-child(3) {
+
+    height: 30%;
+
+}
+
+.boxSendEmail div {
+
+    width: 100%;
+    height: 10%;
+
+
+
+}
+
+.boxSendEmail button {
+
+    width: 30%;
+
+    height: 100%;
+
+    background-color: rgba(0, 255, 255, 0.328);
+
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
