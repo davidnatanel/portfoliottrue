@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from './Footer.module.css';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 

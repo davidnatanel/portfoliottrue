@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './Main.module.css'
 import david from '../../assets/Micara2.jpg'
 

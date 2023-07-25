@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from './Contact.module.css';
 import { BsTelephone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';

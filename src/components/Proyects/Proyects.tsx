@@ -1,4 +1,4 @@
-import React from 'react'
+
 import style from './Proyects.module.css'
 import Card from '../Card/Card';
 

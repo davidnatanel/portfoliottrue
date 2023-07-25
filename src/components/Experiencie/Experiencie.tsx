@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from './Experiencie.module.css';
 import { FaReact } from 'react-icons/fa';
 import { BiLogoJavascript, BiLogoNodejs } from 'react-icons/bi';
