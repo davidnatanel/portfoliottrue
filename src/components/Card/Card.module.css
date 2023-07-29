@@ -35,8 +35,8 @@
 }
 
 .container:hover .readMe {
-    background: rgb(39, 186, 44);
-    background: linear-gradient(360deg, rgba(39, 186, 44, 0.7566198354341737) 89%, rgba(12, 237, 102, 0) 100%);
+    background: rgb(39, 186, 182);
+    background: linear-gradient(360deg, rgba(39, 186, 182, 0.7566198354341737) 89%, rgba(12, 237, 102, 0) 100%);
     top: 20px;
 
 
@@ -73,6 +73,13 @@
 
 }
 
+.loge a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .loge {
 
     background-color: rgba(255, 255, 255, 0.95);
@@ -98,4 +105,13 @@
     right: 20px;
 
 
+}
+
+.loge:hover {
+    background-color: rgba(0, 128, 128, 0.611);
+}
+
+.loge:hover a {
+    color: white;
+    transition: 2s color;
 }

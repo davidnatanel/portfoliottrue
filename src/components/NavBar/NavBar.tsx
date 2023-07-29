@@ -13,15 +13,29 @@ const NavBar = () => {
             <ul className={styled.option}>
 
 
-                <li>HOME</li>
-                <li>ABOUT ME</li>
-                <li>SERVICES</li>
-                <li>EXPERIENCIE</li>
+
+                <li>
+
+                    <a href="#aboutme"> ABOUT ME</a>
+
+                </li>
+
+                <li>
+
+                    <a href="#Projects">PROJECTS</a>
+
+                </li>
+
+
             </ul>
 
             <div className={styled.button}>
 
-                <button>CONTACT</button>
+                <button>
+
+                    <a href="#Contact">CONTACT</a>
+
+                </button>
 
             </div>
 

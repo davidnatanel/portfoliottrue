@@ -6,7 +6,7 @@ import { FiMail } from 'react-icons/fi';
 const Contact = () => {
     return (
 
-        <div className={styled.contact}>
+        <div id='Contact' className={styled.contact}>
 
 
 

@@ -2,7 +2,7 @@ import style from './Card.module.css'
 import { Project } from '../../utils/imageProjects';
 import { FiExternalLink } from 'react-icons/fi';
 
-const Card: React.FC<Project> = ({ texten, title, img }) => (
+const Card: React.FC<Project> = ({ texten, title, img, link }) => (
     <div className={style.container}>
 
 
@@ -16,7 +16,7 @@ const Card: React.FC<Project> = ({ texten, title, img }) => (
 
         <div className={style.loge}>
 
-            < FiExternalLink />
+            <a href={link} target="_blank">  < FiExternalLink /></a>
 
         </div>
 

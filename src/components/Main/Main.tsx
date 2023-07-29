@@ -3,7 +3,7 @@ import david from '../../assets/Micara2.jpg'
 
 export default function Main() {
     return (
-        <div className={style.container}>
+        <div id='aboutme' className={style.container}>
 
 
             <div className={style.about}>
@@ -12,7 +12,14 @@ export default function Main() {
 
                 <p>Soy una persona intelectualmente curiosa y apasionada por la tecnología y el desarrollo en general. Siempre busco aprender y superarme en cada oportunidad. Disfruto enfrentando nuevos desafíos, ya sea trabajando de forma individual o en equipo. Como autodidacta, he desarrollado la habilidad de adaptarme rápidamente a nuevas situaciones y resolver cualquier tipo de problema que se presente.</p>
 
-                <button>Descarga mi Currículum</button>
+                <button>
+
+
+                    <a href="../public/cv.pdf" download     >
+                        Descarga mi Currículum
+
+                    </a>
+                </button>
 
             </div>
 

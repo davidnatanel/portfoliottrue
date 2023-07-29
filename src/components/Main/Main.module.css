@@ -3,7 +3,6 @@
     max-width: 1200px;
 
 
-
 }
 
 .about {
@@ -23,8 +22,7 @@
 }
 
 .about h2 {
-
-    font-size: 40px;
+    margin-top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -37,43 +35,41 @@
 .about button {
 
     height: 50px;
+    width: 200px;
 
     font-size: 16px;
 
 
     padding: 5px;
-    background: linear-gradient(135deg, #24ff72, #2196F3);
-    color: white;
-    border: none;
+    border: 2px solid rgb(39, 186, 182);
+
+    background-color: transparent;
+
+    color: rgb(39, 186, 182);
     border-radius: 5px;
 
-    margin-top: 50px;
-
-
-
+    margin-top: 50px
 }
 
-.about button {
-    cursor: pointer;
+.about button a {
+    text-decoration: none;
+    color: white;
 }
 
 .about button:hover {
-    background: linear-gradient(135deg, #2196F3, #24ff72);
-    transition: all .5s;
-    animation-name: changecolor;
-    animation-duration: 4s;
-}
+    cursor: pointer;
+    background-color: rgb(39, 186, 182);
 
-@keyframes changecolor {
-    from {
-        background-color: red;
-    }
+    transition: all 1s ease-in-out;
+    color: white;
 
-    to {
-        background-color: yellow;
-    }
+    /* background: linear-gradient(135deg, #2196F3, #24ff72); */
+
+
 
 }
+
+
 
 .photo {
     width: 50%;

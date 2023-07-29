@@ -16,8 +16,25 @@ const Footer = () => {
 
             </div>
             <div className={styled.red}>
-                <BsLinkedin />
-                <BsGithub />
+
+
+                <div>
+
+                    <a href="https://www.linkedin.com/in/david-natanael-gomez/" target="_blank">
+
+                        <BsLinkedin />
+
+                    </a >
+                </div>
+
+                <div>
+
+                    <a href="https://github.com/davidnatanel" target="_blank">
+                        <BsGithub />
+                    </a >
+                </div>
+
+
 
             </div>
 

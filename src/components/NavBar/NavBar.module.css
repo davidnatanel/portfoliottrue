@@ -28,7 +28,30 @@
     align-items: center;
     column-gap: 10%;
     color: white;
-    font-size: small;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.option li a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.option a:hover {
+
+    color: rgb(39, 186, 182);
+
+
+
+}
+
+
+.option a:active {
+    color: rgb(39, 186, 182);
+
 }
 
 .button {
@@ -38,6 +61,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .button button {
@@ -50,4 +82,12 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 0.80em;
+}
+
+
+.button :hover {
+    transition: all 2s;
+
+
+
 }
