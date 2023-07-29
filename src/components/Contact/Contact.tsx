@@ -1,5 +1,5 @@
 import styled from './Contact.module.css';
-import { BsTelephone } from 'react-icons/bs';
+import { BsTelephone, BsFillBuildingFill } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 
 
@@ -8,52 +8,23 @@ const Contact = () => {
 
         <div className={styled.contact}>
 
-            <h1 style={{ color: "white" }}>contact</h1>
+
+
+
             <div className={styled.container}>
 
-
-                <div className={styled.left}>
-
-                    <div className={styled.boxinfo}>
-
-
-                        <div>
-                            <h2>Dropp me a message</h2>
-                            <p>
-
-                                hola coomo estas gracia spor llegar hasta aqui
-                            </p>
-
-
-                        </div>
-
-                        <div>
-                            <BsTelephone />
-                            +2323232332
-
-                        </div>
-                        <div>
-
-                            <FiMail />
-                            davidnatanaelgomez2@gmail.com
-
-                        </div>
-                        <div>
-
-                            <img src="" alt="" />
-                        </div>
-
-                    </div>
-
-                </div>
 
 
                 <div className={styled.rigth}>
 
+                    <h2>Contact Me</h2>
+
                     <div className={styled.boxSendEmail}>
+
                         <input placeholder='Name' type="text" />
                         <input placeholder='Email' type="text" />
-                        <input placeholder='Message' type="text" />
+
+                        <textarea placeholder='Message' />
                         <div>
                             <button>Send</button>
 
@@ -62,7 +33,62 @@ const Contact = () => {
 
                     </div>
                 </div>
+
+
+                <div className={styled.left}>
+
+                    <div className={styled.boxinfo}>
+
+
+                        <h2>Info</h2>
+
+
+
+                        <div className={styled.date}>
+
+                            <div>
+                                <BsTelephone />
+                                <p>
+                                    +23 232323 32
+
+                                </p>
+
+                            </div>
+                            <div>
+
+                                <FiMail />
+                                <p>
+                                    davidnatanaelgomez2@gmail.com
+
+                                </p>
+
+
+                            </div>
+
+                            <div>
+                                <BsFillBuildingFill />
+
+                                <p>   Buenos Aires, Argentina </p>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+
             </div>
+
+
+
 
         </div>
     );

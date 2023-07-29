@@ -9,7 +9,7 @@ export default function Proyects() {
         <div className={style.container}
         >
 
-            <h1 style={{ color: "white" }}>contact</h1>
+            <h1 style={{ color: "white" }}>Projects</h1>
 
 
 

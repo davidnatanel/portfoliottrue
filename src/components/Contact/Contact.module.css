@@ -4,6 +4,20 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+
+    background: linear-gradient(356deg, rgba(22, 21, 21, 1) 3%, rgba(35, 33, 38, 1) 91%);
+
+}
+
+.conh1 {
+
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 2em;
+
+
+
+
 }
 
 .container {
@@ -12,12 +26,15 @@
     width: 100%;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 
 .left {
-
+    height: 70%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -29,14 +46,49 @@
 
 .boxinfo {
     width: 60%;
-    height: 60%;
+    height: 90%;
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
+
     row-gap: 10px;
+    background: transparent;
+    border: 5px solid green;
+
+    padding-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
 }
+
+.boxinfo h2 {
+    height: 10%;
+}
+
+.boxinfo p {
+    height: 10%;
+}
+
+.boxinfo div {
+    display: flex;
+    font-size: 18px;
+    column-gap: 3px;
+}
+
+.date {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 40%;
+    justify-content: space-evenly;
+}
+
+.date svg {
+
+    font-size: 1.5em;
+}
+
 
 
 
@@ -53,17 +105,29 @@
 }
 
 .rigth {
+    height: 70%;
 
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+}
+
+.rigth h2 {
+
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+
+    height: 100px;
+
 }
 
 .boxSendEmail {
+
     border-radius: 10px;
 
-    background-color: rgba(22, 125, 90, 0.22);
 
     width: 60%;
     height: 60%;
@@ -81,20 +145,48 @@
 .boxSendEmail input {
 
     width: 100%;
-    height: 8%;
-    background-color: rgb(72, 64, 64);
-    border: none;
-    border-radius: 5px;
+    height: 12%;
+    background-color: transparent;
+    border: 2px solid green;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
     text-indent: 5px;
+
+    font-size: 1em;
+
+
 }
 
+.boxSendEmail textarea {
 
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid green;
+    text-indent: 5px;
 
-.boxSendEmail input:nth-child(3) {
+    font-size: 1em;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 
-    height: 30%;
 
 }
+
+.boxSendEmail textarea::placeholder {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.boxSendEmail input::placeholder {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.boxSendEmail input:nth-child(3) {}
 
 .boxSendEmail div {
 
@@ -106,15 +198,27 @@
 }
 
 .boxSendEmail button {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-    width: 30%;
+    width: 40%;
 
-    height: 100%;
+    height: 50px;
 
-    background-color: rgba(0, 255, 255, 0.328);
+
 
     border: none;
-    border-radius: 5px;
+
+    border: 1px solid green;
+    background-color: transparent;
     color: white;
 
+
+}
+
+
+.boxSendEmail button:hover {
+
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
 }

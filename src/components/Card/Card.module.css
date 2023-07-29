@@ -1,11 +1,14 @@
 .container {
     background-color: #f0f0f0;
-    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 250px;
+    height: 210px;
     width: 300px;
     overflow: hidden;
     position: relative;
+
+    border-radius: 20px;
+
+    box-shadow: 2px 1px 5px 2px black;
 
 }
 
@@ -19,20 +22,26 @@
     height: 90%;
     width: 100%;
 
-    transition: all 1s ease-in;
+    transition: all 1s;
     ;
     padding: 5px;
     color: white;
     border-radius: 5px;
+
+    text-align: center;
+    font-size: 19px;
+    font-weight: bolder;
+
 }
 
 .container:hover .readMe {
-
-    background-color: rgba(51, 51, 61, 0.785);
-    top: 50px;
+    background: rgb(39, 186, 44);
+    background: linear-gradient(360deg, rgba(39, 186, 44, 0.7566198354341737) 89%, rgba(12, 237, 102, 0) 100%);
+    top: 20px;
 
 
 }
+
 
 .container h2 {
 
@@ -42,8 +51,51 @@
 }
 
 .container img {
+    position: relative;
+
+    transition: 1s all;
+
+
     height: 100%;
     position: relative;
 
     width: 100%;
+    transition: 1s all;
+
+}
+
+.container:hover img {
+
+    position: relative;
+    height: 100%;
+    transform: scale(1.2);
+    filter: blur(1px);
+
+}
+
+.loge {
+
+    background-color: rgba(255, 255, 255, 0.95);
+    height: cover;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    border-radius: 50%;
+    padding: 6px;
+    transition: all 1s;
+
+
+}
+
+
+.container:hover .loge {
+    right: 20px;
+
+
 }
