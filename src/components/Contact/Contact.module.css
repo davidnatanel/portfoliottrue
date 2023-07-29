@@ -47,7 +47,7 @@
 
 .boxinfo {
 
-    width: 60%;
+    width: cover;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,6 @@
     display: flex;
     flex-direction: column;
 
-    width: 100%;
     height: 40%;
     justify-content: space-evenly;
 }
@@ -130,7 +129,6 @@
 }
 
 .boxSendEmail {
-
     border-radius: 10px;
 
 
@@ -213,19 +211,10 @@
 
 .boxSendEmail button {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-
     width: 40%;
-
     height: 50px;
-
-
-
     border: none;
-
     border: 2px solid rgb(39, 186, 182);
-
-    /* background: rgb(39,186,182);
-background: linear-gradient(360deg, rgba(39,186,182,0.7566198354341737) 89%, rgba(12,237,102,0) 100%); */
     background-color: transparent;
     color: white;
     margin-top: 24px;
@@ -240,4 +229,10 @@ background: linear-gradient(360deg, rgba(39,186,182,0.7566198354341737) 89%, rgb
     background: rgb(39, 186, 182);
     cursor: pointer;
     color: rgb(240, 237, 237);
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
 }

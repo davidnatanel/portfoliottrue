@@ -81,3 +81,25 @@
 .photo img {
     width: 50%;
 }
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column-reverse;
+
+        padding: 25px;
+    }
+
+
+    .photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

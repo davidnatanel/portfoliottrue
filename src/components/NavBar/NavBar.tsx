@@ -16,28 +16,24 @@ const NavBar = () => {
 
                 <li>
 
-                    <a href="#aboutme"> ABOUT ME</a>
+                    <a href="#aboutme"> Home</a>
 
                 </li>
 
                 <li>
 
-                    <a href="#Projects">PROJECTS</a>
+                    <a href="#Projects">Projects</a>
+
+                </li>
+                <li>
+
+                    <a href="#Contact">Contact me</a>
 
                 </li>
 
-
             </ul>
 
-            <div className={styled.button}>
 
-                <button>
-
-                    <a href="#Contact">CONTACT</a>
-
-                </button>
-
-            </div>
 
         </div>
 

@@ -4,6 +4,10 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
+
+
 }
 
 .logo {
@@ -20,9 +24,8 @@
 }
 
 .option {
-
     list-style: none;
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
