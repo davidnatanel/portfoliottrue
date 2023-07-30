@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './Habilidades.module.css'
 import technology from '../../utils/imageTech'
 
