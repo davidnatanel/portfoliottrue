@@ -36,7 +36,16 @@
 
 .container:hover .readMe {
     background: rgb(39, 186, 182);
-    background: linear-gradient(360deg, rgba(39, 186, 182, 0.7566198354341737) 89%, rgba(12, 237, 102, 0) 100%);
+    background: linear-gradient(360deg, rgba(38, 40, 40, 0.894) 57%, rgba(12, 237, 102, 0) 93%);
+
+
+
+
+
+
+
+
+
     top: 20px;
 
 
@@ -46,6 +55,9 @@
 .container h2 {
 
     width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    text-transform: capitalize;
 
 
 }
@@ -74,7 +86,7 @@
 }
 
 .loge a {
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +94,7 @@
 
 .loge {
 
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(53, 59, 59, 0.894);
     height: cover;
     position: absolute;
     top: 10px;
@@ -114,4 +126,38 @@
 .loge:hover a {
     color: white;
     transition: 2s color;
+}
+
+.container p {
+    font-size: 13px;
+    color: rgb(242, 236, 236);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.Tec {
+
+    width: 100%;
+
+    display: grid;
+    /* display: flex;
+    justify-content: space-evenly; */
+    margin-top: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(90px, 20px));
+
+    row-gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tec div {
+    background-color: rgb(31, 30, 30);
+    height: 20px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

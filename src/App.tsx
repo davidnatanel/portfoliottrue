@@ -8,6 +8,7 @@ import Proyects from './components/Proyects/Proyects';
 import Contact from './components/Contact/Contact';
 
 import Footer from './components/Footer/Footer';
+import Habilidades from './components/Habilidades/Habilidades';
 
 function App() {
 
@@ -20,12 +21,11 @@ function App() {
       <Main />
 
       <Proyects />
+      <Habilidades />
 
       <Contact />
-      <div className={styled.hrs}>
-        <hr />
+      <hr className={styled.hrs} />
 
-      </div>
       <Footer />
 
     </div>

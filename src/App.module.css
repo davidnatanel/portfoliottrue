@@ -9,6 +9,6 @@
 .hrs {
 
     width: 85%;
-    height: 10px;
-
+    height: 2px;
+    border: 1px solid white;
 }

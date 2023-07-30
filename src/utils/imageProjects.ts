@@ -47,7 +47,7 @@ const ProjectsList: Project[] = [
     img: chatApp,
     git: "https://github.com/davidnatanel/Client-Chat-App-MERN",
     link: "https://clientchatmern.vercel.app/",
-    technology: [{ name: "React", color: "blue" }, { name: "NodeJs", color: "green" }, { name: "socket.io", color: "black" }, { name: "mongoDB", color: "green" }]
+    technology: [{ name: "React", color: "blue" }, { name: "NodeJs", color: "green" }, { name: "Socket.io", color: "black" }, { name: "MongoDB", color: "green" }]
 
   },
   {
@@ -71,7 +71,7 @@ const ProjectsList: Project[] = [
     img: NoteApp,
     git: "https://github.com/davidnatanel/notesapp",
     link: "https://notesapp-sand.vercel.app/",
-    technology: [{ name: "React", color: "blue" }]
+    technology: [{ name: "React", color: "blue" }, { name: "MongoDB", color: "green" }]
 
   },
   {
@@ -83,7 +83,7 @@ const ProjectsList: Project[] = [
     img: MegaShop,
     git: "https://github.com/davidnatanel/MegaStore",
     link: "https://mega-store-ashy.vercel.app/",
-    technology: [{ name: "React", color: "blue" }]
+    technology: [{ name: "React", color: "blue", }, { name: "MongoDB", color: "green" }]
 
   }
 ]

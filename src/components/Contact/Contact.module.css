@@ -121,10 +121,12 @@
 
     color: white;
     font-size: 2em;
-    width: 100%;
+    width: 30%;
     text-align: center;
 
-    height: 100px;
+    height: cover;
+    border-bottom: 2px solid rgb(39, 186, 182);
+    padding: 1px;
 
 }
 

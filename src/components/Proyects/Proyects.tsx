@@ -16,7 +16,7 @@ export default function Proyects() {
             <main>
 
                 {ProjectsList.map((card) => (
-                    <Card key={card.id} id={card.id} title={card.title} texten={card.texten} textes={''} img={card.img} git={''} link={card.link} technology={[]} />
+                    <Card key={card.id} id={card.id} title={card.title} texten={card.texten} textes={''} img={card.img} git={''} link={card.link} technology={card.technology} />
                 ))}
 
             </main>

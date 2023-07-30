@@ -1,5 +1,5 @@
 import styled from './NavBar.module.css';
-
+import Logo from '../../assets/D.png'
 
 const NavBar = () => {
     return (
@@ -7,7 +7,9 @@ const NavBar = () => {
         <div className={styled.containerNav}>
             <div className={styled.logo}>
 
-                Logo
+
+                <img className={styled.loge} src={Logo} alt="" />
+
             </div>
 
             <ul className={styled.option}>
@@ -25,6 +27,13 @@ const NavBar = () => {
                     <a href="#Projects">Projects</a>
 
                 </li>
+
+                <li>
+
+                    <a href="#Habilidades">Habilidades</a>
+
+                </li>
+
                 <li>
 
                     <a href="#Contact">Contact me</a>

@@ -1,5 +1,6 @@
 import styled from './Footer.module.css';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import Logo from '../../assets/D.png'
 
 const Footer = () => {
     return (
@@ -7,7 +8,12 @@ const Footer = () => {
 
             <div className={styled.logo}>
 
-                logo
+                <div className={styled.logo}>
+
+
+                    <img className={styled.loge} src={Logo} alt="" />
+
+                </div>
 
             </div>
             <div className={styled.rights}>

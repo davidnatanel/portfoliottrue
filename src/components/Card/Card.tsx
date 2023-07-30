@@ -2,7 +2,7 @@ import style from './Card.module.css'
 import { Project } from '../../utils/imageProjects';
 import { FiExternalLink } from 'react-icons/fi';
 
-const Card: React.FC<Project> = ({ texten, title, img, link }) => (
+const Card: React.FC<Project> = ({ texten, title, img, link, technology }) => (
     <div className={style.container}>
 
 
@@ -12,6 +12,17 @@ const Card: React.FC<Project> = ({ texten, title, img, link }) => (
         <div className={style.readMe}>
             <h2>{title}</h2>
             <p>{texten}</p>
+            <div className={style.Tec}>
+
+                {technology.map((e: any) => {
+
+                    return (
+                        <div>{e.name}</div>
+                    )
+                })}
+            </div>
+
+
         </div>
 
         <div className={style.loge}>
